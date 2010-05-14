@@ -1,0 +1,246 @@
+#main {
+	z-index: 5;
+}
+
+#spinnerId {
+	position: fixed;
+	left: 97px;
+	top: 150px;
+}
+
+#info {
+	font-size: 18px;
+}
+
+.listCell {
+	color: #000000;	
+}
+
+.labelBold {
+	font-weight: bold;
+}
+
+#app {
+
+}
+
+#main {
+
+}
+
+/*
+ * APP
+ */
+
+div.palm-group
+{
+	-webkit-border-image: url(../images/palm-group.png) 40 18 18 18 repeat repeat;
+}
+.palm-menu.command-menu.palm-default > .palm-menu-fade
+{
+	background: url(../images/command-menu-gradient.png) bottom left repeat-x;  
+}
+div.palm-list .row
+{
+	background: url(../images/list-seperator.png) bottom left repeat-x;
+	margin: 0;
+	width: auto;         
+	padding: 15px 0 13px 0;
+	border-bottom: 1px transparent;
+}
+.center 
+{
+	text-align:center;
+}
+.clear
+{
+	clear:both;
+}
+.round
+{
+	-webkit-border-radius: 5px;
+}
+.palm-group .palm-row.single .datepicker-group
+{                                                        
+	border-width: 5px;
+	height: 52px;
+}
+.palm-group .palm-row.single .listsel-group
+{                                                        
+	border-width: 5px;
+	height: 50px;
+	position: relative;
+	top: -13px;
+}
+.palm-group .palm-row.single .textfield-group
+{                                                        
+	border-width: 15px;
+	/*-webkit-border-image: url(../images/inactive_textfield.png) 15 15 15 15 stretch stretch;
+	color:#111;*/
+}
+div.sectionHead
+{
+	font-size:14px;
+	font-weight:bold;
+	text-transform: uppercase;
+	vertical-align: middle;
+	color:#FFF;
+	text-shadow: rgb(100, 100, 84) 0px 1px 0px;
+	height:28px;
+	margin:20px 8px 4px 8px;
+	line-height: 28px;
+	padding: 0;
+	-webkit-border-image: url(../images/section_header.png) 0 19 0 19 stretch stretch;
+	border-width: 2px 16px 2px 16px;
+}
+.palm-header
+{
+	-webkit-border-image: url(../images/header.png) 0 24 0 24 stretch stretch;
+	border-width: 0px 22px 0px 22px;
+}
+
+.palm-row-wrapper .count
+{
+	float: right;
+    line-height: 19px;
+    height: 30px;
+    min-width: 30px;
+	vertical-align: middle;
+    -webkit-border-image: url(../images/count.png) 5 10 5 10 stretch stretch;
+    -webkit-box-sizing: border-box;
+    border-width: 5px 10px 5px 10px;
+	margin-top: 12px;
+	margin-right: 15px;
+}
+.palm-row-wrapper .count
+{
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.buttonfloat {
+	width: 140px;
+}
+
+/*
+ * Popups
+ */
+.palm-device-menu {
+	width: 120px;
+}
+
+/*
+ * Other
+ */
+.scene .palm-page-header .title {
+    padding-left: 16px;
+}
+.scene p {
+    padding: 0px 15px 0px 15px;
+}
+
+/*
+ * Menu
+ */
+.cmdMenu {
+	position: fixed;
+	left: 50px;
+}
+.nav_update {
+	background-image:url(../images/nav_update.png);
+	background-repeat:no-repeat;
+	top:15px;
+	left:-10px;
+}
+.nav_edit {
+	background-image:url(../images/nav_edit.png);
+	background-repeat:no-repeat;
+	top:15px;
+	left:-10px;
+}
+.nav_today {
+	background-image: url(../images/nav_today.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+.nav_week {
+	background-image: url(../images/nav_week.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+.nav_lists {
+	background-image: url(../images/nav_lists.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+.nav_search {
+	background-image: url(../images/nav_search.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+.nav_more {
+	background-image: url(../images/nav_more.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+.nav_mobile {
+	background-image: url(../images/nav_mobile.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+/*
+ * SUPPORT
+ */
+.img_icon {
+	position:absolute;
+	left:10px;
+	top:5px;
+	width:32px; 
+	height:32px;
+	background: url(../icon32x32.png) no-repeat center ;
+	padding: 10px 0px 0px 5px;
+	float:left;	
+}
+.list_scene {
+	position:relative;
+	left:48px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_email {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-email.png) no-repeat bottom;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_phone {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-phone.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_web {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-web.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}

@@ -1,0 +1,84 @@
+<div id="main" class="palm-hasheader">
+	<div id="main-hdr" class="palm-header center">Add Task</div>
+
+	<div class="palm-group unlabeled">
+		<div class="palm-group-title" x-mojo-loc=''>Task</div>
+			<div class="palm-list">
+		   		<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+						<div class="label">Task</div>
+						<div class="title">
+		      				<div x-mojo-element="TextField" id="txtName"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+				
+	<div class="palm-group unlabeled">
+		<div class="palm-group-title" x-mojo-loc=''>List</div>
+			<div class="palm-list">			
+				<div class="palm-row single">
+					<div class="palm-row-wrapper listsel-group" x-mojo-focus-highlight="true">
+						<div class="title">
+		      				<div x-mojo-element="ListSelector" id="lstSelList"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="palm-group unlabeled">
+		<div class="palm-group-title" x-mojo-loc=''>Priority</div>
+			<div class="palm-list">
+				<div class="palm-row single">
+					<div class="palm-row-wrapper listsel-group" x-mojo-focus-highlight="true">
+						<div class="title">
+		      				<div x-mojo-element="ListSelector" id="lstSelPriority"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="palm-group unlabeled">
+		<div class="palm-group-title" x-mojo-loc=''>Due</div>
+			<div class="palm-list">
+				<div class="palm-row single">
+					<div class="palm-row-wrapper datepicker-group" x-mojo-focus-highlight="true">
+		      			<div class="label">Due</div>
+						<!-- top: -39px for webOS 1.3.5+ -->
+						<div x-mojo-element="DatePicker" id="dateDue" style="position: relative; top: -3px; left: -10px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="palm-group unlabeled" style="visibility: hidden; display: none;">
+		<div class="palm-group-title" x-mojo-loc=''>Tags</div>
+			<div class="palm-list">
+				<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+						<div class="title">
+							<div class="label">Tags</div>
+		      				<div x-mojo-element="TextField" id="txtTags"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<table>
+		<tr>
+			<td width="50%"><div id="btnDone" class="palm-button primary buttonfloat">Done</div></td>
+			<td width="50%"><div id="btnCancel" class="palm-button secondary buttonfloat">Cancel<div></td>
+		</tr>
+	</table>
+	</div>
+<div x-mojo-element="Spinner" id="spinnerId" name="spinnerName"></div>
+<div style="position: fixed; left: 0px; top: 0px; z-index: -1; background-color: #FFFFFF; height: 480px; width: 320px;" height=100% width=100%></div>

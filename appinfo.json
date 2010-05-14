@@ -1,0 +1,11 @@
+{
+	"id": "com.d0lph1nk1ng.h.cowtasks",
+	"version": "0.1.2",
+	"vendor": "d0lph1nK1ng",
+	"type": "web",
+	"main": "index.html",
+	"title": "CowTasks",
+	"icon": "icon.png",
+	"removable": true,
+	"noWindow":true
+}
