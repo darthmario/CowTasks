@@ -1,11 +1,9 @@
 {
-	"id": "com.d0lph1nk1ng.h.cowtasks",
+	"id": "com.natecraddockcom.testinterface",
 	"version": "0.1.2",
-	"vendor": "d0lph1nK1ng",
+	"vendor": "Nate Craddock.com",
 	"type": "web",
 	"main": "index.html",
 	"title": "CowTasks",
-	"icon": "icon.png",
-	"removable": true,
-	"noWindow":true
+	"icon": "icon.png"
 }
